@@ -1,0 +1,26 @@
+
+/* this is element selector */
+
+h1{
+	color: orange;
+	background-color: blue;
+}
+
+p{
+	color: purple;
+}
+
+/* this is meant for the .class selector */
+.test{
+	color: red;
+}
+
+/* this is from the # - id  selctor tag */
+#test1{
+	background-color: yellow;
+}
+
+
+h4{
+	color: grey;
+}
