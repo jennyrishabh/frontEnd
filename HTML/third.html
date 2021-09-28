@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>html_lect_demo</title>
+</head>
+<style type="text/css">
+
+/*
+body{
+
+border: 2px solid red;
+
+}
+
+
+*{
+
+border: 2px solid red;
+
+}
+
+*/
+
+div {
+	border-radius: 45px;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  animation-name: temp;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate; 
+  animation-timing-function: 12; 
+  transform: rotate(15deg);
+  transition: width 3s;
+  transition: height 3s;
+  transform: skew(15,15);
+
+}
+
+div:hover {
+  height: 300px;
+  width:  300px;
+  perspective: 300px;
+ transition: translate(400px,400px);
+}
+
+@keyframes temp {
+  0%   {background-color:blue; left:0px; top:0px;}
+  25%  {background-color:grey; left:200px; top:0px;}
+  50%  {background-color:orange; left:200px; top:200px;}
+  75%  {background-color:violet; left:0px; top:200px;}
+  100% {background-color:purple; left:0px; top:0px;}
+}
+
+/* parent child realtion : css*/
+ul>li{
+	list-style: circle;
+	color: yellow;
+}
+
+ul>li ol{
+	list-style: square;
+	color: yellow;
+}
+/* adjacent element : css*/
+p+h6{
+	
+	color: violet;
+}
+
+
+
+body{
+  background: #4b4b4b;
+}
+
+
+*{
+    background: red;
+ }
+
+ input[value="hide"]:checked~.newimg{
+ 	display: none;
+ }
+
+
+ p~ol{
+ 	background-color: brown;
+ }
+
+
+ .img{
+ 	transition-duration: 5s; 
+ }
+
+ .img:hover{
+ 	transform: translate(350px,350px);
+ 	transform: rotate(360deg);
+ }
+
+</style>
+<body>
+	<!--
+	<h4>mj</h4>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+	<div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	</div>
+
+	-->
+
+	foo<p>bar</p>
+
+
+	dfvkhdfvf
+
+	<br>
+
+
+
+	<input type="radio" value="show" name="im" id="s">
+	<label for="s">show </label><br>
+
+	<input type="radio" value="hide" name="im" id="h">
+
+	<label for="h">hide </label><br>
+
+	<img src="https://www.desktopbackground.org/download/1366x768/2015/05/17/949695_best-background-images-for-website-wallpapers-high-definition_1920x1080_h.jpg" width="90" height="100" alt="nonono" class="newimg">
+	
+	
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div></div>
+
+
+	<ul>
+	    <li>1</li>
+	    <li>2</li>
+	    <li>45</li>
+	    <li>678</li>
+	    <li>
+	    	<ol>
+	    	    <li>dfbfg</li>
+	    	    <li>ertg</li>
+	    	    <li>ertg</li>
+	    	    <li>ertg</li>
+	    	</ol>
+	    </li>
+	</ul>
+
+	<p>my name is rishabh jain</p>
+	<h6>kjhsdjfvsdf</h6>
+
+
+	
+			<ol>
+			    <li>1</li>
+			    <li>2</li>
+			    <li>3</li>
+			</ol>
+
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.
+			
+		</p>
+
+
+		<img src="https://www.desktopbackground.org/download/1366x768/2015/05/17/949695_best-background-images-for-website-wallpapers-high-definition_1920x1080_h.jpg" width="90" height="100" alt="nonono" class="img">
+
+
+
+
+</body>
+</html>
+

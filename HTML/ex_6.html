@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ex_6</title>
+  <style type="text/css">
+  
+  #img1{
+    margin: 8px 50px 25px 370px;
+    height :150px;
+    width :550px;
+  }
+
+  #fig1{
+    text-align: center;
+  }
+
+  body{
+    background-color: #4d79ff;
+    background-image: url(https://www.desktopbackground.org/download/1366x768/2015/05/17/949695_best-background-images-for-website-wallpapers-high-definition_1920x1080_h.jpg);
+    background-size: 99% 99%;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+  }
+
+
+  .sideBAR{
+    margin-top: 20px;
+    margin-left: 110px;
+     height: 540px;
+      width: 25%; 
+    background-color: white;
+  }
+
+  aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-top: 1px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+  }
+
+
+  .carousel-inner img {
+    width: 93%;
+    height: 7%;
+  }
+
+  /*  from the CSS editor  */
+
+  body {
+    background-color: #EAEAEA;
+    font-family: 'Roboto', sans-serif;
+}
+.wrap {
+  display: flex;
+    max-width: 940px;
+    margin: 0px 0px 110px 27px;
+}
+
+
+/*Menu !!!!*/
+.menu {
+    vertical-align: top;
+    display: inline-block;
+    margin: 10px ;
+    
+}
+.menu-item {
+    background-color: #FEFEFE;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow:0 0 8px rgba(0, 0, 0, 0.06);
+}
+
+.header-item {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #3C3D41  ;
+    font-size: 11px;
+    padding: 15px 15px;
+    border-bottom: 1.5px solid #EAEAEA;
+}
+
+.color-row1,  .color-row2  {
+    margin: 15px;
+    padding:0;
+    max-width: 220px;
+}
+
+.color-circle {
+    max-width: 220px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px 50px 50px 50px;
+    
+}
+
+.size-circle {
+    background-color: #EBEBEB;
+
+}
+
+.sizedouble {
+ 
+   margin: 5px 5px;
+
+}
+.size {
+     margin: 6px 8px;
+}
+
+/*ITEMS!!!*/
+img {
+    width: 100px; 
+    height: 130px;
+    margin-top: 10px;
+    vertical-align: top;
+    position: relative;
+    left: 50px;
+}
+
+.items  {
+    width: 650px;
+    margin: 5px;
+    display: inline-block;
+}
+ .item {
+    vertical-align: top;
+    width: 190px; 
+    height: 240px; 
+    margin: 8px;
+    background:#FEFEFE; 
+    display: inline-block;
+    border-radius: 3px;
+    box-shadow:0 0 8px rgba(0, 0, 0, 0.06);
+ }
+
+h3 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 1em;
+}
+
+h5 {
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.descroption {
+    margin: 0;
+    text-align: center;
+    font-size: 11px;
+    font-style: italic;
+    color: grey;
+    font-family: sans-serif;
+}
+
+
+/*BTN*/
+.loadmore {
+    height: 30px;
+    width: 610px;
+    margin-top: 25px;
+    position: relative;
+    left: 8px;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #B8C6C7;
+    color: #FEFEFE;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mini-menu{
+    width: 200px;
+    border-radius: 3px;
+    box-shadow:0 0 8px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #848C8F ;
+    font-size: 11px;
+    margin: 10px;
+}
+.mini-menu ul {
+    list-style: none;
+    margin: 0;
+    padding:0;
+    text-align:left;
+}
+.mini-menu > ul > li {
+    position: relative;
+}
+.mini-menu > ul > li > a {
+    display: block; 
+    outline: 0; 
+    padding: 1.2em 1em; 
+    text-decoration: none;  
+    color:#3C3D41;  
+    font-weight: normal;
+    letter-spacing: 2px;  
+    background: #FEFEFE;
+    border-bottom: 1.5px solid #EAEAEA;
+   
+}
+
+.mini-menu .sub > ul {
+    height: 0;
+    overflow: hidden;
+    background: #848C8F;
+}
+.mini-menu .sub > ul > li > a {
+    font-family:  sans-serif;
+    color:#FEFEFE;
+    font-size: 12px;
+    display: block;
+    text-decoration: none;
+    padding: .7em 1em;
+    text-transform: capitalize;
+    font-style: normal; 
+    letter-spacing: 1px;
+}
+/*.mini-menu .sub > ul > li > a:hover,*/
+.mini-menu .sub > a.active,
+ {
+    padding-left: 1.3em;
+    color: blue;
+    content: "1";
+    float: right;
+    margin-right:6px;
+    line-height: 12px;
+}
+.mini-menu .sub >  a:after{
+    content: "»";
+    float: right;
+    margin-right:6px;
+    line-height: 12px;
+}
+
+@media screen and (max-width: 940px) {
+    .items {width: 420px;}
+    .wrap {width: 700px;}
+    .loadmore{width: 420px;}
+   }
+   @media screen and (max-width: 720px) {
+    .items {width: 220px;}
+    .wrap {width: 500px;}
+    .loadmore{width: 220px;}
+   }
+   
+
+   .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 0.9em;
+    height: 1.6em;
+    cursor: default;
+    outline: none;
+    border: 1px solid rgb(207, 207, 207);
+    background: #090;
+    border-image: initial;
+}
+
+
+
+
+
+  </style>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+
+  <header>
+  	<nav style="background-color: yellow;text-align: center;">this is without the bootstrap part : 
+		<a href="#login">Login</a>
+		<a href="#contact_info">Contact</a>
+		<a href="#_about">About</a>
+		<a href="https://duckduckgo.com/?q=flipkart&t=h_" target="_blank">Google_us</a>  
+		
+	</nav>
+
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Flipkart.com , using bootstrap</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#login">Login</a></li>
+        <li><a href="#contact_info">Contact</a></li>
+        <li><a href="https://duckduckgo.com/?q=flipkart&t=h_" target="_blank">Google_us</a></li>
+      </ul>
+      <form class="navbar-form navbar-left" action="/action_page.php">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search" name="search">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="submit">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </nav>
+
+  </header>
+
+  <figure>
+        <img src="https://logos-download.com/wp-content/uploads/2016/09/Flipkart_logo.png" alt="logo" id='img1'>
+        <figcaption id='fig1'>Website logo</figcaption>
+  </figure>
+
+
+  <aside id="login">
+    LOGIN DEATAILS : <br>
+    <label for="user">username : </label>
+    <input type="text" id="user" placeholder="username"><br>
+    <label for="pass">Password : </label>
+    <input type="password" id="pass" placeholder="enter password">
+    
+
+  </aside>
+
+<!--
+ https://m.media-amazon.com/images/I/51+es1c90xL._SX3000_.jpg
+
+ https://m.media-amazon.com/images/I/61gQ7FilhQL._SX3000_.jpg
+
+ https://m.media-amazon.com/images/I/51ZZkHAc3GL._SX3000_.jpg
+
+-->
+
+<!--  Carousel items frm amazon  -->
+
+<hr><br><br><br><br>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://m.media-amazon.com/images/I/51+es1c90xL._SX3000_.jpg" alt="Los Angeles" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src=" https://m.media-amazon.com/images/I/61gQ7FilhQL._SX3000_.jpg" alt="Chicago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="https://m.media-amazon.com/images/I/51ZZkHAc3GL._SX3000_.jpg" alt="New York" width="1100" height="500">
+    </div>
+  </div>
+  
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<!--
+
+<div class="wrap">
+    <div class="menu">
+        <div class="mini-menu">
+            <ul>
+        <li class="sub">
+            <a href="#">WOMAN</a>
+            <ul>
+               <li><a href="#">Jackets</a></li>
+               <li><a href="#">Blazers</a></li>
+               <li><a href="#">Suits</a></li>
+               <li><a href="#">Trousers</a></li>
+               <li><a href="#">Jenas</a></li>
+               <li><a href="#">Shirts</a></li> 
+            </ul>
+        </li>
+        <li class="sub">
+            <a href="#">MAN</a>
+            <ul>
+               <li><a href="#">Jackets</a></li>
+               <li><a href="#">Blazers</a></li>
+               <li><a href="#">Suits</a></li>
+               <li><a href="#">Trousers</a></li>
+               <li><a href="#">Jenas</a></li>
+               <li><a href="#">Shirts</a></li> 
+            </ul>
+        </li>
+        <li class="sub">
+            <a href="#">KIDS</a>
+            <ul>
+                <li><a href="#">Jackets</a></li>
+               <li><a href="#">Blazers</a></li>
+               <li><a href="#">Suits</a></li>
+               <li><a href="#">Trousers</a></li>
+               <li><a href="#">Jenas</a></li>
+               <li><a href="#">Shirts</a></li> 
+            </ul>
+        </li>
+        <li class="sub">
+            <a href="#">Shoes&Bags</a>
+            <ul>
+            <li><a href="#">Jackets</a></li>
+               <li><a href="#">Blazers</a></li>
+               <li><a href="#">Suits</a></li>
+               <li><a href="#">Trousers</a></li>
+               <li><a href="#">Jenas</a></li>
+               <li><a href="#">Shirts</a></li> 
+            </ul>
+        </li>
+    </ul>
+        </div>
+        <div class="menu-colors menu-item">
+            <div class="header-item" >Colors</div>
+            <ul class="color-row1">
+                <li class="color-circle" style="background:#4286f4"></li>
+                <li class="color-circle" style="background:#2acc4b"></li>
+                <li class="color-circle" style="background:#343534"></li>
+                <li class="color-circle" style="background:#5f605f"></li>
+                <li class="color-circle" style="background:#929392"></li>
+            </ul>
+            <ul class="color-row2">
+                <li class="color-circle" style="background:#9e8045"></li>
+                <li class="color-circle" style="background:#d3d3d3"></li>
+                <li class="color-circle" style="background:#6b6666"></li>
+                <li class="color-circle" style="background:#999797"></li>
+                <li class="color-circle" style="background:#923476"></li>
+            </ul>
+        </div>
+        <div class="menu-size menu-item">
+            <div class="header-item" >Size</div>
+            <ul class="color-row1">
+                <li class="color-circle size-circle" ><p class="sizedouble">XS</p></li>
+                <li class="color-circle size-circle" style="background-color:#343534" ><p style="color:#999" class="size">S</p></li>
+                <li class="color-circle size-circle" ><p class="size">M</p></li>
+                <li class="color-circle size-circle" ><p class="size">L</p></li>
+                <li class="color-circle size-circle" ><p class="sizedouble">XL</p></li>
+            </ul>
+        </div>
+        <div class="menu-price menu-item">
+            <div class="header-item" >Price</div>
+            <p>
+                
+                <input type="text" readonly id="amount"  style="border:0; color:#f6931f; font-weight:bold;">
+            </p>
+            <div id="slider-range"></div>
+        </div>
+        
+    </div>
+
+
+-->
+
+
+<!-- this is new addition : -->
+<div class="wrap">
+<div class="sideBAR">
+
+
+    <div class="widget">
+    <h3>Price Range</h3>
+    <input type="range" value="50" min="100" max="2000" step="150" onchange="output.value=value"><output id="output">   50</output></div>
+
+
+    <!-- For Search Bar--> <div class="widget">
+    <h3>Search Here</h3> <div class="form">
+    <form action="#">
+    <input type="text" placeholder="Product
+    Name">
+    <button type="submit" class="btn-1">
+    <i class="fas fa-angle-right"></i> </button>
+    </form> </div>
+    </div>
+
+
+
+    <!-- For check boxes-->
+    <div class="widget"> <h3>colour Preference</h3> <ul>
+    <li>
+    <input type="checkbox" id="veg"> <label for="veg">Gold</label>
+    </li> <li>
+    <input type="checkbox" id="non-veg">
+    <label for="non-veg">Silver</label>
+    </li> </ul>
+    </div>
+
+
+
+
+    <div class="widget"> <h3>Discount</h3>
+    For Discount
+    </div>
+    <ul>
+    <li>
+    <input type="checkbox" id="discount_1">
+    <label for="discount_1">5% or more</label> </li>
+    <li>
+    <input type="checkbox" id="discount_2"> <label for="discount_2">10% or
+    more</label> </li>
+    <li>
+    <input type="checkbox" id="discount_3"> <label for="discount_3">20% or
+    more</label> </li>
+    <li>
+    <input type="checkbox" id="discount_4"> <label for="discount_4">30% or
+    more</label> </li>
+    <li>
+    <input type="checkbox" id="discount_5"> <label for="discount_5">40% or
+    more</label> </li>
+    </ul>
+
+  
+  </div>
+
+
+
+
+
+
+    <div class="items">
+        
+  <div class="items">
+        <div data-price="290" class="item">
+            <img src="https://www.imaging-resource.com/PRODS/IPHONE4/ZURBLACKFRNT.JPG" alt="jacket" class="img-item"></img>
+                <div class="info">
+                    <h3>IPHONE4</h3>
+                    <p class="descroption">Black Grey Plants</p>
+                    <h5>$290</h5>
+                </div>
+        </div>
+        <div data-price="900" class="item">
+            <img src="https://www.imaging-resource.com/PRODS/IPHONE4/ZURBLACKFRNT.JPG" alt="jacket" class="img-item" ></img>
+                <div class="info">
+                    <h3>IPHONE4</h3>
+                    <p class="descroption">Black Grey Plants</p>
+                    <h5>$900</h5>
+                </div>
+        </div>
+        <div data-price="600" class="item">
+            <img src="https://www.imaging-resource.com/PRODS/IPHONE4/ZURBLACKFRNT.JPG" alt="jacket" class="img-item"></img>
+                <div class="info">
+                    <h3>IPHONE4</h3>
+                    <p class="descroption">Black Grey Plants</p>
+                    <h5>$600</h5>
+                </div>
+        </div>
+         <div data-price="457" class="item">
+            <img src="https://www.imaging-resource.com/PRODS/IPHONE4/ZURBLACKFRNT.JPG" alt="jacket" class="img-item"></img>
+                <div class="info">
+                    <h3>IPHONE4</h3>
+                    <p class="descroption">Black Grey Plants</p>
+                    <h5>$457</h5>
+                </div>
+        </div>
+         <div data-price="674" class="item">
+            <img src="https://www.imaging-resource.com/PRODS/IPHONE4/ZURBLACKFRNT.JPG" alt="jacket" class="img-item"></img>
+                <div class="info">
+                    <h3>IPHONE4</h3>
+                    <p class="descroption">Black Grey Plants</p>
+                    <h5>$647</h5>
+                </div>
+        </div>
+         <div data-price="315" class="item">
+            <img src="https://www.imaging-resource.com/PRODS/IPHONE4/ZURBLACKFRNT.JPG" alt="jacket" class="img-item"></img>
+                <div class="info">
+                    <h3>IPHONE4</h3>
+                    <p class="descroption">Black Grey Plants</p>
+                    <h5>$315</h5>
+                </div>
+        </div>
+         <div data-price="987" class="item">
+            <img src="https://www.imaging-resource.com/PRODS/IPHONE4/ZURBLACKFRNT.JPG" alt="jacket" class="img-item"></img>
+                <div class="info">
+                    <h3>IPHONE4</h3>
+                    <p class="descroption">Black Grey Plants</p>
+                    <h5>$987</h5>
+                </div>
+        </div>
+         <div data-price="777" class="item">
+            <img src="https://www.imaging-resource.com/PRODS/IPHONE4/ZURBLACKFRNT.JPG" alt="jacket" class="img-item"></img>
+                <div class="info">
+                    <h3>IPHONE4</h3>
+                    <p class="descroption">Black Grey Plants</p>
+                    <h5>$777</h5>
+                </div>
+        </div>
+         <div data-price="504" class="item">
+            <img src="https://www.imaging-resource.com/PRODS/IPHONE4/ZURBLACKFRNT.JPG" alt="jacket" class="img-item"></img>
+                <div class="info">
+                    <h3>IPHONE4</h3>
+                    <p class="descroption">Black Grey Plants</p>
+                    <h5>$504</h5>
+                </div>
+        </div>
+    </div>
+ <button class="loadmore">Load More</button>
+    </div>
+</div>
+
+<hr>
+
+
+
+<main id="_about" style="margin-left: 25px;color: #4dff88;">
+  <em>What are we ? </em>
+  <p>Flipkart is an Indian e-commerce company, headquartered in Bangalore, Karnataka, India, and incorporated in Singapore as a private limited company. The company initially ... </p>
+
+  <article>
+    <em>Available in:</em>
+    <p>English, Hindi, Bengali, Kannada, Tamil, Telugu, Marathi, Malayalam, Odiya, Punjabi, Gujarati, Assamese</p>
+  </article>
+
+</main>
+
+<hr>
+
+<footer id="contact_info" style="background-color: yellow;margin-left: 7px;margin-right: 7px;">
+  <strong style="color: red;">Contact info : </strong>
+  <p> @Rishabh<br>
+  <a href="mailto:rishbabh@gmail.com">rishabh@gmail.com</a></p>
+</footer>
+
+
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+   
+    <div class="me-5 d-none d-lg-block">
+      <span>Using Bootstrap _ Get connected with us on social networks:</span>
+    </div>
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    
+  </section>
+ 
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+          </h6>
+          <p>
+           Bye and sell products as many as you want 
+          </p>
+        </div>
+        
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Toys</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">cloth</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Grocery</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Home Decorative</a>
+          </p>
+        </div>
+       
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Dwarka, New Delhi XXXXXX, IND</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +91 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> +91 234 567 89</p>
+        </div>
+       
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Flipkart.com</a>
+  </div>
+  
+</footer>
+
+
+</body>
+</html>
+
