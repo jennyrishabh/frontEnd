@@ -1,0 +1,1 @@
+controller constains all the logic related work not the mapping part
